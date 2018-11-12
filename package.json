@@ -1,0 +1,25 @@
+{
+  "name": "react-usestate-in-user-land",
+  "version": "1.0.0",
+  "description": "Implement useState hook from scratch in React 16.6.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.7.0-alpha.0 - next",
+    "react-dom": "16.7.0-alpha.0 - next",
+    "react-scripts": "2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
