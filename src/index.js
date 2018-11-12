@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
+import { use, useState } from "./future";
 
-const Example = () => {
+const Example = use(() => {
   const [count, setCount] = useState(0);
 
   return (
@@ -10,7 +11,7 @@ const Example = () => {
       <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
   );
-};
+});
 
 function App() {
   return (
